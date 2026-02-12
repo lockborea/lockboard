@@ -2,6 +2,7 @@ import pygame
 import threading
 from evdev import InputDevice, categorize, ecodes
 
+# CHANGE THESE TO YOUR /DEV/INPUT/EVENT PATHS
 keyboard = InputDevice('/dev/input/event4')
 mouse = InputDevice('/dev/input/event8')
 
