@@ -2,7 +2,7 @@
 
 A keyboard/mouse visualizer like NohBoard, made in Python for Linux using **evdev** and **PyGame**, compatible with both **Wayland** and **X11**.
 
-By default, lockboard is set up to match my preferences, but you can customize the key layout in ```lockboard.py``` with a bit of common sense
+By default, lockboard is set up to match my preferences, but you can customize the key layout in ```lockboard.py``` with a bit of common sense.
 
 ![Lockboard Showcase](/assets/showcase.png)
 
