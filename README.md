@@ -1,6 +1,6 @@
 # lockboard
 
-A keyboard visualizer like NohBoard, made in Python for Linux using **evdev** and **PyGame**, compatible with both **Wayland** and **X11**.
+A keyboard/mouse visualizer like NohBoard, made in Python for Linux using **evdev** and **PyGame**, compatible with both **Wayland** and **X11**.
 
 ## Setup Guide:
 
