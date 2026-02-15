@@ -13,7 +13,7 @@ By default, lockboard is set up to match my preferences, but you can customize t
    * **Fedora:**
 
      ```bash
-     sudo dnf install python python3-evdev python3-pygame
+     sudo dnf install python3 python3-evdev python3-pygame
      ```
    * **Debian/Ubuntu:**
 
@@ -25,7 +25,7 @@ By default, lockboard is set up to match my preferences, but you can customize t
      ```bash
      sudo pacman -S python python-evdev python-pygame
      ```
-2. Download and install lockboard's ZIP file.
+2. Download lockboard's ZIP file.
 3. Extract the file and open the folder in a terminal.
 4. Run:
 
