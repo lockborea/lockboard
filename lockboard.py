@@ -70,7 +70,7 @@ mouse_layout = {
 pygame.init()
 screen = pygame.display.set_mode((500, 250))
 pygame.display.set_caption("lockboard")
-font = pygame.font.SysFont(None, 28)
+font = pygame.font.SysFont(None, 32)
 clock = pygame.time.Clock()
 
 running = True
