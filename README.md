@@ -30,12 +30,13 @@ By default, lockboard is set up to match my preferences, but you can customize t
 4. Run:
 
    ```bash
+   sudo usermod -aG input $USER
    python list-devices.py
    ```
-
    This will list your keyboard and mouse `/dev/input/event` paths. Make sure it shows your keyboard/mouse name ending with `/input0`.
-5. Open `lockboard.py` in a text editor and update the `keyboard` and `mouse` variables to match your `/dev/input/event` paths.
-6. Run lockboard:
+   
+6. Open `lockboard.py` in a text editor and update the `keyboard` and `mouse` variables to match your `/dev/input/event` paths.
+7. Run lockboard:
 
    ```bash
    python lockboard.py
